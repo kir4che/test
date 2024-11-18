@@ -1,0 +1,186 @@
+{
+  "common": {
+    "name": "kir4che",
+    "mail": "mollydcxxiii@gmail.com"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skill": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": {
+      "tw": "繁體中文",
+      "en": "English"
+    }
+  },
+  "banner": {
+    "heading": "Hi, I'm",
+    "name": "Molly Su",
+    "description": "A front-end developer who enjoys solving problems and is passionate about learning new technologies."
+  },
+  "about": {
+    "title": "About Me",
+    "mbti": "ISTJ",
+    "description": "I'm Molly Su. I graduated with a bachelor's degree in information and financial management from National Taipei University of Technology.\nI'm passionate about front-end development because it allows me to express my creativity and see results quickly.\nI enjoy taking on complex and challenging projects and am eager to contribute my skills and learn from real-world experience to enhance my proficiency in front-end development.",
+    "hobby": {
+      "title": "Hobbies:",
+      "content": ["Gaming", "Watching LoL tournaments", "Enjoying food", "Watching Twitch"]
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "25sprout": {
+      "title": "25sprout",
+      "position": "Frontend Development Intern @ 25sprout",
+      "date": "Mar. 2024 – Nov. 2024",
+      "location": "Songshan Dist., Taipei (Hybrid)",
+      "link": "https://www.25sprout.com/",
+      "content": [
+        "Maintain SurveyCake official website.",
+        "Use React and TypeScript to fix bugs in SurveyCake enterprise dashboard.",
+        "Optimize SurveyCake WordPress blog theme.",
+        "Use React, TypeScript, Redux and Nivo to assist in developing SurveyCake XM.",
+        "Learn Git for collaborative development and version control.",
+        "Maintained legacy projects"
+      ],
+      "skills": ["HTML/CSS", "JavaScript", "React", "Redux", "Git", "WordPress"]
+    },
+    "mrhost": {
+      "title": "mrhost",
+      "position": "Frontend Engineering Intern @ mrhost",
+      "date": "Nov. 2022 – May 2023",
+      "location": "Xinyi Dist., Taipei",
+      "link": "https://www.mrhost.com.tw/",
+      "content": [
+        "Automate Google Sheets workflows using Apps Script.",
+        "Use SiteMinder’s PMS to manage hotel information, room types, and prices.",
+        "Build a one-page website using Bootstrap 5.",
+        "Create SOPs to ensure the accuracy and consistency of daily workflows.",
+        "Assist in writing SEO articles."
+      ],
+      "skills": ["Apps Script", "HTML/CSS", "Bootstrap 5", "SiteMinder"]
+    }
+  },
+  "projects": {
+    "title": "Side Projects",
+    "website": "Website",
+    "demoVideo": "Demo Video",
+    "github": "GitHub",
+    "stocklight": {
+      "title": "Stock Light ✨",
+      "subtitle": "Senior Project",
+      "techStack": [
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS + MUI",
+        "ECharts",
+        "AOS",
+        "NextAuth",
+        "OpenAI API"
+      ],
+      "description": "A one-stop stock information platform that uses historical data and statistical analysis, wrapped in a \"Light Up\" blessing system. It integrates deep learning analysis to provide users with instant and straightforward analysis and reports for individual stocks. I was mainly responsible for frontend development, including UI/UX design, and worked closely with the backend team to define API formats and assist with integration.\n\nKey features include:",
+      "features": [
+        "Fundamental and technical analysis for individual stocks, and weather correlation analysis.",
+        "God of Stock Market AI Chatbot",
+        "Lighting System: After selecting an industry category, the system filters and identifies the most promising stocks within that sector.",
+        "Individual Stock Dashboard: Includes financial ratios, sentiment score radar charts based on textual analysis, key chart information, related news, and AI chatbot powered by GPT-4 and Retrieval-Augmented Generation (RAG) technology.",
+        "Watchlist: Users can create groups and add stocks of interest to track real-time prices, changes, and related analysis."
+      ],
+      "website": "https://stocklight.co/",
+      "demoVideo": "https://www.youtube.com/watch?v=s92-9di9qa4",
+      "github": "https://github.com/kir4che/stock-light-website"
+    },
+    "mern-ec-website": {
+      "title": "E-commerce Website 🛒",
+      "subtitle": "MERN Stack Project",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS + Headless UI",
+        "Framer Motion",
+        "Express",
+        "MongoDB"
+      ],
+      "description": "A full stack e-commerce website using MERN stack.\n The frontend allows users to browse products, place orders, and view their order history (without payment integration for now).\n The backend provides admin capabilities for adding, deleting, and editing products, managing messages and orders, and viewing all customers' order information.",
+      "features": [],
+      "website": "https://mern-ecommerce-client-seven.vercel.app/",
+      "demoVideo": "https://www.youtube.com/watch?v=DQy-FXbpQy0",
+      "github": "https://github.com/kir4che/mern-ecommerce-website"
+    }
+  },
+  "skill": {
+    "title": "Skills",
+    "subtitle": "These are the skills I have acquired so far, and I am continually working to improve them.",
+    "tip": "(Hover over the icon to see my proficiency level)",
+    "frontend": {
+      "react-native": {
+        "name": "React",
+        "level": "Proficient in developing with Functional Components.\nFamiliar with using Hooks.\nExperienced with React Router v6 for route management."
+      },
+      "redux": {
+        "name": "Redux",
+        "level": "Understand basic concepts.\nSome knowledge of RTK (Redux Toolkit) usage."
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "level": "Familiar with basic syntax (ES5, ES6+).\nExperienced in API integration and data processing."
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "level": "Understand basic syntax.\nFamiliar with using type aliases and interfaces."
+      },
+      "sass": {
+        "name": "Sass",
+        "level": ""
+      },
+      "tailwindcss": {
+        "name": "Tailwind CSS",
+        "level": ""
+      }
+    },
+    "backend": {
+      "nodejs": {
+        "name": "Node.js",
+        "level": "Understand basic syntax.\nFamiliar with RESTful API design."
+      },
+      "express-js": {
+        "name": "Express",
+        "level": "Know how to set up routes.\nExperience creating simple RESTful APIs."
+      },
+      "mysql": {
+        "name": "MySQL",
+        "level": "Familiar with basic query commands.\nUnderstand database design."
+      }
+    },
+    "languages": {
+      "java-coffee-cup-logo--v1": {
+        "name": "Java",
+        "level": "Understand basic syntax.\nExperience developing simple GUI applications (Java Swing)."
+      },
+      "python": {
+        "name": "Python",
+        "level": "Understand basic syntax.\nBasic experience with web scraping.\nUse BeautifulSoup and Selenium libraries."
+      }
+    },
+    "others": {
+      "git": {
+        "name": "Git",
+        "level": "Understand basic commands.\nExperience with collaboration and version control."
+      },
+      "figma": {
+        "name": "Figma",
+        "level": "Familiar with basic operations.\nExperience in converting design mockups into code."
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "level": "Experience creating websites.\nUsed Elementor for writing posts and editing styles.\nUnderstand how to customize website styles."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "I look forward to connecting with like-minded individuals\n and exploring new opportunities for collaboration.",
+    "button": "Send Email"
+  }
+}

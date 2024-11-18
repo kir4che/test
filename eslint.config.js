@@ -19,10 +19,18 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      "semi": ["error", "always"],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
+      "@typescript-eslint/no-unused-expressions": [
+        "error",
+        {
+          "allowShortCircuit": false,
+          "allowTernary": true
+        }
+      ]
     },
   },
 )
