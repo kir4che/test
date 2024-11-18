@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { LANGUAGES } from "@/constants";
 
-import ArrowDownIcon from '../../public/assets/icons/arrow-down.svg?react';
+import ArrowDownIcon from '../assets/icons/arrow-down.svg?react';
 
 interface Language {
   code: string;

@@ -15,8 +15,8 @@ export default {
         'xs': '375px',
       },
 			backgroundImage: {
-				circle: "url('../../public/assets/images/bg-circle.png')",
-				wave: "url('../../public/assets/images/bg-wave.png')",
+				circle: "url('../assets/images/bg-circle.png')",
+				wave: "url('../assets/images/bg-wave.png')",
 			},
 			colors: {
 				beige: {

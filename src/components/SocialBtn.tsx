@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-import LinkedinIcon from '../../public/assets/icons/linkedin.svg?react';
-import GithubIcon from '../../public/assets/icons/github.svg?react';
-import BlogIcon from '../../public/assets/icons/blog.svg?react';
-import InstagramIcon from '../../public/assets/icons/instagram.svg?react';
+import LinkedinIcon from '../assets/icons/linkedin.svg?react';
+import GithubIcon from '../assets/icons/github.svg?react';
+import BlogIcon from '../assets/icons/blog.svg?react';
+import InstagramIcon from '../assets/icons/instagram.svg?react';
 
 const SocialBtn: React.FC = () => {
   const socialList = [

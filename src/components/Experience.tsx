@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 import Title from '@/components/Title';
 
-import LocationIcon from '../../public/assets/icons/location.svg?react';
-import ShareIcon from '../../public/assets/icons/share.svg?react';
+import LocationIcon from '../assets/icons/location.svg?react';
+import ShareIcon from '../assets/icons/share.svg?react';
 
 const Experience: React.FC = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
             <div className="py-3 space-y-4 border-2 border-pink-500 collapse-content rounded-b-md">
               <div className='flex items-center justify-between gap-4 text-sm'>
                 <div className='flex items-center gap-1'>
-                  <img src={`../../public/assets/images/${key}.png`} alt={key} className='w-10' />
+                  <img src={`../assets/images/${key}.png`} alt={key} className='w-10' />
                   <LocationIcon className='w-5 h-5' />
                   <p>{t(`experience.${key}.location`)}</p>
                 </div>
