@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       <header className="navbar sticky top-0 z-20 bg-white px-4 lg:px-6 py-2.5">
         <div className="navbar-start">
           <Link to='/' className='flex items-center'>
-						<img src='../assets/images/logo.png' className='h-8' alt='Logo' />
+						<img src='assets/images/logo.png' className='h-8' alt='Logo' />
 						<span className='text-xl font-semibold text-nowrap'>{t('common.name')}</span>
 					</Link>
         </div>
