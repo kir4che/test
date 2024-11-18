@@ -8,7 +8,7 @@ const About: React.FC = () => {
 	return (
     <div id='about' className='relative max-w-screen-md px-8 pt-16 pb-12 mx-auto lg:px-0'>
       <Title style='md:mx-0' text={t('about.title')} />
-      <div className='flex flex-col items-center justify-between gap-8 md:flex-row'>
+      <div className='flex flex-col justify-between gap-8 md:flex-row'>
         <div className='order-2 grow md:order-none'>
           <p
             className='mb-6 leading-8 md:mb-12'
