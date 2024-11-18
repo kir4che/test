@@ -28,7 +28,7 @@ const About: React.FC = () => {
           </div>
         </div>
         <div className='order-1 mx-auto md:order-none'>
-          <img src='src/assets/images/molly.jpg' alt='About' className='transition duration-300 transform rounded-md w-80 hover:scale-105 hover:rotate-3 md:w-full' />
+          <img src='src/images/molly.jpg' alt='About' className='transition duration-300 transform rounded-md w-80 hover:scale-105 hover:rotate-3 md:w-full' />
         </div>
         <p className='absolute font-bold tracking-wider text-pink-600 bottom-32 md:top-52 -left-2 md:-left-24 text-9xl opacity-20 -rotate-6'>
           {t('about.mbti')}

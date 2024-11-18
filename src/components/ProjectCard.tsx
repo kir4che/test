@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className='flex flex-col max-w-screen-xl gap-4 px-8 lg:gap-8 lg:flex-row'>
         <div>
           <img
-            src={`src/assets/images/${project}.png`}
+            src={`../../public/assets/images/${project}.png`}
             alt={project}
             className='lg:max-w-screen-sm mb-2.5 rounded-md shadow'
           />
